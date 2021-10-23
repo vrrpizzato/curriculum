@@ -1,0 +1,88 @@
+/* Customization */
+
+  .personal-info {
+    margin-left: 4px;
+  }
+  
+  h4.about-title {
+    width: 95%;
+    border-bottom: 2px solid #888;
+  }
+  
+  h5.skills-title {
+    width: 100%;
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: left;
+    color: black;
+    background-color: gainsboro;
+  }
+  
+  table.skills {
+    margin-top: 32px;
+  }
+  
+  tr.skills {
+    border-color: ghostwhite;
+  }
+  
+  th.title {
+    vertical-align: top;
+  }
+  
+  th.skills {
+    font-size: 18px;
+    vertical-align: top;
+  }
+  
+  th.header {
+    vertical-align: bottom;
+  }
+  
+  td.body {
+    font-size: 20px;
+    vertical-align: top;
+  }
+  
+  td.body b{
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .row .col.s3 {
+    width: 25%;
+    height: 2160px;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  
+  .row .col.s9 {
+    width: 75%;
+    height: 2160px;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  
+  span.fill-content {
+    text-align: center;
+    width: 16px;
+    border: 2px solid #888;
+    border-radius: 32px;
+  }
+  
+  p.profile-picture {
+    margin-top: 16px;
+    margin-left: 12px;
+    align-content: center;
+  }
+  
+  p.personal-info {
+    font-size: 20px;
+  }
+  
+  p.time {
+    font-size: 18px;
+  }
