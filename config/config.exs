@@ -13,10 +13,10 @@ config :curriculum,
 # Configures the endpoint
 config :curriculum, CurriculumWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "XmO9J1ndBlOFoRogtxYwnzvujKMBtKHJiiI+JQuYo6Se9LapicSLfRfcsAL7IlZ3",
+  secret_key_base: "Jz1YgpK1PxzMteVjgt/0JX8iSmT9xY45dnpkQbZe7bApBFjU9YbN1Q9h47T9Lbwz",
   render_errors: [view: CurriculumWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: Curriculum.PubSub,
-  live_view: [signing_salt: "APcxaznI"]
+  live_view: [signing_salt: "iC4sWPk2"]
 
 # Configures Elixir's Logger
 config :logger, :console,
