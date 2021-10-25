@@ -7,7 +7,7 @@ defmodule CurriculumWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_curriculum_key",
-    signing_salt: "FBHGgLas"
+    signing_salt: "nrCN8WXV"
   ]
 
   socket "/socket", CurriculumWeb.UserSocket,
