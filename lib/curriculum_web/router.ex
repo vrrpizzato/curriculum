@@ -5,9 +5,9 @@ defmodule CurriculumWeb.Router do
     plug :accepts, ["html"]
     plug :fetch_session
     plug :fetch_live_flash
+    plug :put_root_layout, {CurriculumWeb.LayoutView, :root}
     plug :protect_from_forgery
     plug :put_secure_browser_headers
-    plug :put_root_layout, {CurriculumWeb.LayoutView, :root}
   end
 
   pipeline :api do
@@ -17,7 +17,8 @@ defmodule CurriculumWeb.Router do
   scope "/", CurriculumWeb do
     pipe_through :browser
 
-    get "/", PageController, :index
+    live "/", PageLive, :index
+    live "/vrrpizzato", VRRPLive
   end
 
   # Other scopes may use custom stacks.
