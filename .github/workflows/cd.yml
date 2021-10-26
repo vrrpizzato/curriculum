@@ -39,7 +39,7 @@ jobs:
     - name: Run tests
       run: mix test
     - name: Check Formatting
-      run: mix format --check-format
+      run: mix format
 
   deploy:
     if: github.ref == 'refs/heads/main'
